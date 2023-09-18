@@ -1,0 +1,74 @@
+.profile {
+  margin: 36px auto;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 256px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+  margin: 32px auto 0;
+  text-align: center;
+}
+
+.avatar {
+  width: 120px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.name {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+
+.tag {
+  margin-top: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.location {
+  margin-top: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.stats {
+  height: 72px;
+  margin: 32px 0 0;
+  display: flex;
+  list-style: none;
+  border-top: 1px solid #d5d9f1;
+  padding: 0;
+  justify-content: space-between;
+  background-color: #ecedf2;
+}
+
+
+
+.statsElement {
+  
+  flex: 1;
+  text-align: center;
+}
+.stats li:not(:last-child) {
+  border-right: 1px solid #d5d9f1; /* Бордер праворуч для всіх li, окрім останнього */
+}
+
+
+.label {
+  display: block;
+  text-align: center;
+  margin-top: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+
+}
+.quantity {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+}
