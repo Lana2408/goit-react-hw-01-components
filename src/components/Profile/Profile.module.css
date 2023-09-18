@@ -45,17 +45,18 @@
   padding: 0;
   justify-content: space-between;
   background-color: #ecedf2;
+  border-radius: 0 0 10px 10px;
 }
 
 
 
 .statsElement {
-  
   flex: 1;
   text-align: center;
 }
+
 .stats li:not(:last-child) {
-  border-right: 1px solid #d5d9f1; /* Бордер праворуч для всіх li, окрім останнього */
+  border-right: 1px solid #d5d9f1;
 }
 
 
@@ -67,6 +68,7 @@
   font-size: 12px;
 
 }
+
 .quantity {
   display: block;
   text-align: center;
